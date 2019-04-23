@@ -1,0 +1,285 @@
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 80%;
+  border: 3px solid #ddd;
+  margin-left: 250px;
+}
+
+h1.txtJudul {
+  color: black;
+  margin-left: 250px;
+}
+
+h1.txtJudulForm{
+  text-align: center;
+  color: black;
+}
+
+h1.txtjud{
+  text-align: left;
+}
+
+label.lblform{
+  text-align: left;
+}
+
+th, td {
+  text-align: center;
+  border: 3px solid #ddd;
+  padding: 3px;
+}
+
+tr:nth-child(even){
+  background-color: #f2f2f2
+}
+
+.hor{
+  margin: 0;
+}
+
+.block{
+  display: inline-block;
+  margin: 0;
+}
+
+#myInput {
+  background-image: url('/img/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 35%;
+  font-size: 16px;
+  margin-left: 250px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+.pagination {
+  display: inline-block;
+  margin-left: 250px;
+  margin-top: 10px;
+}
+
+.pagination a:hover {
+  opacity: 0.8;
+  background-color: #84817a;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #227093;
+  color: white;
+  border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+.price {
+  color: #2d3436;
+  font-size: 22px;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin-left: 220px;
+  margin-top: auto;
+  overflow: auto;
+  text-align: center;
+  float: left;
+  font-family: arial;
+  background-color: #2980b9;
+  border-radius: 5px;
+}
+
+.card a {
+  border: none;
+  outline: 0;
+  padding: 10px 142.5px;
+  color: white;
+  background-color: #3498db;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.card a:hover, .card-pengguna a:hover, .card-tpkp a:hover, .card-kategori a:hover, .card-sangatmendesak a:hover, .card-mendesak a:hover, .card-kurangmendesak a:hover {
+  opacity: 0.6;
+}
+
+.card-pengguna{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin-left: 20px;
+  margin-top: -18.5px;
+  text-align: center;
+  float: left;
+  font-family: arial;
+  overflow: auto;
+  background-color: #16a085;
+  border-radius: 5px;
+}
+
+.card-pengguna a {
+  border: none;
+  outline: 0;
+  padding: 10px 142.5px;
+  color: white;
+  background-color: #1abc9c;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.card-tpkp{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin-left: -619px;
+  margin-top: 169.5px;
+  text-align: center;
+  font-family: arial;
+  overflow: auto;
+  float: left;
+  background-color: #e15f41;
+  border-radius: 5px;
+}
+
+.card-tpkp a {
+  border: none;
+  outline: 0;
+  padding: 10px 142.5px;
+  color: white;
+  background-color: #e77f67;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.card-kategori{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin-left: -300px;
+  margin-top: 150.5px;
+  text-align: center;
+  font-family: arial;
+  overflow: auto;
+  float: left;
+  background-color: #ffd32a;
+  border-radius: 5px;
+}
+
+.card-kategori a {
+  border: none;
+  outline: 0;
+  padding: 10px 142.5px;
+  color: white;
+  background-color: #ffdd59;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.dasbor {
+  position: relative;
+}
+
+
+.card-kurangmendesak{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  width: 100%;
+  margin-left: 20px;
+  margin-top: -37px;
+  text-align: center;
+  float: left;
+  font-family: arial;
+  overflow: auto;
+  background-color: #16a085;
+  border-radius: 5px;
+}
+
+.card-kurangmendesak a {
+  border: none;
+  outline: 0;
+  padding: 10px 142.5px;
+  color: white;
+  background-color: #1abc9c;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+
+.card-mendesak{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin-left: 20px;
+  margin-top: -18.5px;
+  text-align: center;
+  float: left;
+  font-family: arial;
+  overflow: auto;
+  background-color: #ffd32a;
+  border-radius: 5px;
+}
+
+.card-mendesak a {
+  border: none;
+  outline: 0;
+  padding: 10px 142.5px;
+  color: white;
+  background-color: #ffdd59;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.card-sangatmendesak {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin-left: 220px;
+  margin-top: auto;
+  overflow: auto;
+  text-align: center;
+  width: 100%;
+  float: left;
+  font-family: arial;
+  background-color: #e15f41;
+  border-radius: 5px;
+}
+
+.card-sangatmendesak a {
+  border: none;
+  outline: 0;
+  padding: 10px 142.5px;
+  color: white;
+  background-color: #e77f67;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 5px;
+}
